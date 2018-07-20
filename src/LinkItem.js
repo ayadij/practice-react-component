@@ -10,7 +10,9 @@ class LinkItem extends React.Component {
           <img src={logo} className="linkItemIcon" alt="logo" />
         </div>
         <div className="linkTitle">
-          <h3>Link Title</h3>
+          <div className={this.props.link_class}>
+            <a href={this.props.link_external}>{this.props.title}</a>
+          </div>
         </div>
       </div>
     );
@@ -18,3 +20,17 @@ class LinkItem extends React.Component {
 }
 
 export default LinkItem;
+// ```
+// "suggestedLinks": [
+//   {
+//     "type": "links",
+//     "value": {
+//       "title": "Home",
+//       "link_external": "http:www.sendoutcards.com",
+//       "link_class": null,
+//       "document": null
+//     },
+//     "id": "5dc693f0-cbc3-409c-bdb2-90b7704f89d7"
+//   }
+// ]
+// ```

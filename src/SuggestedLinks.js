@@ -21,10 +21,26 @@ class SuggestedLinks extends React.Component {
           </div>
         </div>
 
-        <LinkItem />
-        <LinkItem />
-        <LinkItem />
-        <LinkItem />
+        <LinkItem
+          title={"Home"}
+          link_external={"http://www.sentoucards.com"}
+          link_class={"home-link"}
+        />
+        <LinkItem
+          title={"Campaign Store"}
+          link_external={"http://www.sentoucards.com"}
+          link_class={"campaign-store-link"}
+        />
+        <LinkItem
+          title={"Download"}
+          link_external={"http://www.sentoucards.com"}
+          link_class={"download-link"}
+        />
+        <LinkItem
+          title={"Send a Card"}
+          link_external={"http://www.sentoucards.com"}
+          link_class={"send-a-card-link"}
+        />
       </div>
     );
   }
