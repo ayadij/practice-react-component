@@ -2,6 +2,9 @@ import React from "react";
 import "./SuggestedLinks.css";
 import LinkItem from "./LinkItem";
 
+import logo from "./logo.svg";
+import play from "./play.png";
+import download from "./download.png";
 // type Props = {
 //   title: string;
 //   linkExternal?: string;
@@ -23,23 +26,23 @@ class SuggestedLinks extends React.Component {
 
         <LinkItem
           title={"Home"}
-          link_external={"http://www.sentoucards.com"}
-          link_class={"home-link"}
+          link_external={"https://www.sendoutcards.com/"}
+          link_class={"play"}
         />
         <LinkItem
           title={"Campaign Store"}
-          link_external={"http://www.sentoucards.com"}
-          link_class={"campaign-store-link"}
+          link_external={"https://www.sendoutcards.com/app/campaign-store"}
+          link_class={"logo"}
         />
         <LinkItem
           title={"Download"}
-          link_external={"http://www.sentoucards.com"}
-          link_class={"download-link"}
+          link_external={"https://www.sendoutcards.com/"}
+          link_class={"download"}
         />
         <LinkItem
           title={"Send a Card"}
-          link_external={"http://www.sentoucards.com"}
-          link_class={"send-a-card-link"}
+          link_external={"https://www.sendoutcards.com/"}
+          link_class={"play"}
         />
       </div>
     );

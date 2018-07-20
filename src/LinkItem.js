@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
+import play from "./play.png";
+import download from "./download.png";
 import "./SuggestedLinks.css";
 
 class LinkItem extends React.Component {
@@ -7,7 +9,12 @@ class LinkItem extends React.Component {
     return (
       <div className="linkItem">
         <div className="linkIcon">
-          <img src={logo} className="linkItemIcon" alt="logo" />
+          <img
+            src={download}
+            //   { this.props.link_class } = "download"  ? src={download} : src={logo}
+            className="linkItemIcon"
+            alt="logo"
+          />
         </div>
         <div className="linkTitle">
           <div className={this.props.link_class}>
