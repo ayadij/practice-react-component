@@ -14,24 +14,17 @@
 }
 
 .linkItem {
-  flex: auto;
+  display: flex;
+  align-content: flex-start;
 }
 
 .linkIcon {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
   width: 30%;
+  height: 50px;
 }
 
 .linkTitle {
   display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  align-items: flex-end;
-  align-self: flex-end;
-  box-align: right;
-  width: 60%;
 }
 
 .title {
@@ -40,4 +33,8 @@
   border-bottom-color: rgb(31, 144, 205);
   border-bottom-width: 2px;
   padding: 20px 20px 0 20px;
+}
+
+.linkItemIcon {
+  height: 50px;
 }

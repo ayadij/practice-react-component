@@ -1,6 +1,6 @@
 import React from "react";
 import "./SuggestedLinks.css";
-import logo from "./logo.svg";
+import LinkItem from "./LinkItem";
 
 // type Props = {
 //   title: string;
@@ -21,14 +21,10 @@ class SuggestedLinks extends React.Component {
           </div>
         </div>
 
-        <div className="linkItem">
-          <div className="linkIcon">
-            <img src={logo} className="App-logo" alt="logo" />
-          </div>
-          <div className="linkTitle">
-            <h3>Link Title</h3>
-          </div>
-        </div>
+        <LinkItem />
+        <LinkItem />
+        <LinkItem />
+        <LinkItem />
       </div>
     );
   }
