@@ -1,5 +1,6 @@
 import React from "react";
-import "./SuggestedLinks.scss";
+import "./SuggestedLinks.css";
+import logo from "./logo.svg";
 
 // type Props = {
 //   title: string;
@@ -22,10 +23,10 @@ class SuggestedLinks extends React.Component {
 
         <div className="linkItem">
           <div className="linkIcon">
-            <div />
+            <img src={logo} className="App-logo" alt="logo" />
           </div>
           <div className="linkTitle">
-            <div />
+            <h3>Link Title</h3>
           </div>
         </div>
       </div>
@@ -34,16 +35,3 @@ class SuggestedLinks extends React.Component {
 }
 
 export default SuggestedLinks;
-
-// "suggestedLinks": [
-//   {
-//     "type": "links",
-//     "value": {
-//       "title": "Home",
-//       "link_external": "http://www.sendoutcards.com",
-//       "link_class": null,
-//       "document": null
-//     },
-//     "id": "5dc693f0-cbc3-409c-bdb2-90b7704f89d7"
-//   }
-// ]

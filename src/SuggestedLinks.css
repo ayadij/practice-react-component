@@ -1,0 +1,43 @@
+.suggestedLinks {
+  width: 40%;
+  height: 100%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading {
+  flex: auto;
+}
+
+.linkItem {
+  flex: auto;
+}
+
+.linkIcon {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  width: 30%;
+}
+
+.linkTitle {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+  box-align: right;
+  width: 60%;
+}
+
+.title {
+  flex: auto;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(31, 144, 205);
+  border-bottom-width: 2px;
+  padding: 20px 20px 0 20px;
+}
